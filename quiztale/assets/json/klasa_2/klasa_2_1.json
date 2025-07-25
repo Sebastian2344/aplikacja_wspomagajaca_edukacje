@@ -1,0 +1,124 @@
+{
+  "klasa_2_1": [
+    {
+      "pytanie": "Co to jest wiersz?",
+      "odpowiedzi": ["Film", "Piosenka", "Obraz", "Utwór literacki"],
+      "poprawna_odpowiedź": "Utwór literacki",
+      "kategoria": "język polski"
+    },
+    {
+      "pytanie": "Który z tych wyrazów jest czasownikiem?",
+      "odpowiedzi": ["Biegnie", "Stół", "Piękny", "Niebieski"],
+      "poprawna_odpowiedź": "Biegnie",
+      "kategoria": "język polski"
+    },
+    {
+      "pytanie": "Co to jest rzeczownik?",
+      "odpowiedzi": ["Opis", "Nazwa osoby, zwierzęcia, rzeczy", "Czas", "Część zdania"],
+      "poprawna_odpowiedź": "Nazwa osoby, zwierzęcia, rzeczy",
+      "kategoria": "język polski"
+    },
+    {
+      "pytanie": "Co to jest sylaba?",
+      "odpowiedzi": ["Fragment słowa", "Zdanie", "Wyraz", "Litera"],
+      "poprawna_odpowiedź": "Fragment słowa",
+      "kategoria": "język polski"
+    },
+    {
+      "pytanie": "Które z tych słów to przymiotnik?",
+      "odpowiedzi": ["Mały", "Biegać", "Pies", "Wysoki"],
+      "poprawna_odpowiedź": "Wysoki",
+      "kategoria": "język polski"
+    },
+    {
+      "pytanie": "Ile to jest 7 + 5?",
+      "odpowiedzi": ["10", "11", "12", "14"],
+      "poprawna_odpowiedź": "12",
+      "kategoria": "matematyka"
+    },
+    {
+      "pytanie": "Który miesiąc jest pierwszy w roku?",
+      "odpowiedzi": ["Marzec", "Styczeń", "Maj", "Wrzesień"],
+      "poprawna_odpowiedź": "Styczeń",
+      "kategoria": "matematyka"
+    },
+    {
+      "pytanie": "Jaka jest wartość liczby 20?",
+      "odpowiedzi": ["15", "10", "20", "5"],
+      "poprawna_odpowiedź": "20",
+      "kategoria": "matematyka"
+    },
+    {
+      "pytanie": "Co to jest suma?",
+      "odpowiedzi": ["Wynik dodawania", "Wynik odejmowania", "Działanie matematyczne", "Operacja logiczna"],
+      "poprawna_odpowiedź": "Wynik dodawania",
+      "kategoria": "matematyka"
+    },
+    {
+      "pytanie": "Ile to jest 15 - 7?",
+      "odpowiedzi": ["9", "7", "8", "6"],
+      "poprawna_odpowiedź": "8",
+      "kategoria": "matematyka"
+    },
+    {
+      "pytanie": "Co to jest wróbel?",
+      "odpowiedzi": ["Ssaki", "Owady", "Ptak", "Gady"],
+      "poprawna_odpowiedź": "Ptak",
+      "kategoria": "przyroda"
+    },
+    {
+      "pytanie": "Co daje nam drzewo?",
+      "odpowiedzi": ["Wodę", "Światło", "Powietrze", "Tlen"],
+      "poprawna_odpowiedź": "Tlen",
+      "kategoria": "przyroda"
+    },
+    {
+      "pytanie": "Co oznacza termin 'żywioły natury'?",
+      "odpowiedzi": ["Elementy natury", "Rasy zwierząt", "Rodzaje drzew", "Gatunki ptaków"],
+      "poprawna_odpowiedź": "Elementy natury",
+      "kategoria": "przyroda"
+    },
+    {
+      "pytanie": "Jak się nazywa proces, podczas którego roślina rośnie?",
+      "odpowiedzi": ["Oddychanie", "Fotosynteza", "Kwitnienie", "Parowanie"],
+      "poprawna_odpowiedź": "Fotosynteza",
+      "kategoria": "przyroda"
+    },
+    {
+      "pytanie": "Które zwierzę żyje na łące?",
+      "odpowiedzi": ["Ryba", "Żaba", "Bocian", "Mysz"],
+      "poprawna_odpowiedź": "Bocian",
+      "kategoria": "przyroda"
+    },
+    {
+      "pytanie": "Co oznacza 'blue' po polsku?",
+      "odpowiedzi": ["Zielony", "Żółty", "Niebieski", "Czarny"],
+      "poprawna_odpowiedź": "Niebieski",
+      "kategoria": "język angielski"
+    },
+    {
+      "pytanie": "Jak po angielsku powiemy 'dzień dobry' rano?",
+      "odpowiedzi": ["Good night", "Goodbye", "Good morning", "Good afternoon"],
+      "poprawna_odpowiedź": "Good morning",
+      "kategoria": "język angielski"
+    },
+    {
+      "pytanie": "Jak po angielsku powiemy 'książka'?",
+      "odpowiedzi": ["Table", "Book", "Chair", "Tree"],
+      "poprawna_odpowiedź": "Book",
+      "kategoria": "język angielski"
+    },
+    {
+      "pytanie": "Co oznacza 'red' po polsku?",
+      "odpowiedzi": ["Zielony", "Niebieski", "Żółty", "Czerwony"],
+      "poprawna_odpowiedź": "Czerwony",
+      "kategoria": "język angielski"
+    },
+    {
+      "pytanie": "Jak po angielsku powiemy 'dziękuję'?",
+      "odpowiedzi": ["Sorry", "Hello", "Thank you", "Please"],
+      "poprawna_odpowiedź": "Thank you",
+      "kategoria": "język angielski"
+    }
+  ]
+}

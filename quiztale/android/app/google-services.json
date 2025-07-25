@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "135599988085",
+    "project_id": "quiztale-a678a",
+    "storage_bucket": "quiztale-a678a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135599988085:android:9190577e08a194cee8473c",
+        "android_client_info": {
+          "package_name": "com.example.quiztale"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHZ-etAXUTy-APEiHHHqv15Eg1xb-qZo0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

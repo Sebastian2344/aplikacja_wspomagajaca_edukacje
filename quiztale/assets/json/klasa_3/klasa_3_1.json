@@ -1,0 +1,180 @@
+{
+  "klasa_3_1": [
+    {
+      "pytanie": "Który z poniższych wyrazów jest czasownikiem?",
+      "odpowiedzi": [
+        "Biega",
+        "Czerwony",
+        "Słońce",
+        "Dom"
+      ],
+      "poprawna_odpowiedź": "Biega",
+      "kategoria": "język polski"
+    },
+    {
+      "pytanie": "Jakie jest przeciwieństwo słowa 'ciężki'?",
+      "odpowiedzi": [
+        "Lekki",
+        "Wielki",
+        "Mały",
+        "Duży"
+      ],
+      "poprawna_odpowiedź": "Lekki",
+      "kategoria": "język polski"
+    },
+    {
+      "pytanie": "Które zdanie jest poprawne?",
+      "odpowiedzi": [
+        "Ona lubi bawić.",
+        "On lubi bawić się.",
+        "Lubi on bawić.",
+        "Bawić się ona."
+      ],
+      "poprawna_odpowiedź": "On lubi bawić się.",
+      "kategoria": "język polski"
+    },
+    {
+      "pytanie": "Który z tych wyrazów to rzeczownik?",
+      "odpowiedzi": [
+        "Słoń",
+        "Czerwony",
+        "Biega",
+        "Szybko"
+      ],
+      "poprawna_odpowiedź": "Słoń",
+      "kategoria": "język polski"
+    },
+    {
+      "pytanie": "Jakie słowo opisuje kolor?",
+      "odpowiedzi": [
+        "Błękitny",
+        "Leci",
+        "Krzyk",
+        "Miły"
+      ],
+      "poprawna_odpowiedź": "Błękitny",
+      "kategoria": "język polski"
+    },
+    {
+      "pytanie": "Ile to jest 15 + 10?",
+      "odpowiedzi": [
+        "20",
+        "25",
+        "30",
+        "35"
+      ],
+      "poprawna_odpowiedź": "25",
+      "kategoria": "matematyka"
+    },
+    {
+      "pytanie": "Jaka jest połowa liczby 20?",
+      "odpowiedzi": [
+        "5",
+        "8",
+        "10",
+        "15"
+      ],
+      "poprawna_odpowiedź": "10",
+      "kategoria": "matematyka"
+    },
+    {
+      "pytanie": "Ile to jest 12 - 7?",
+      "odpowiedzi": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      "poprawna_odpowiedź": "5",
+      "kategoria": "matematyka"
+    },
+    {
+      "pytanie": "Ile to jest 8 x 2?",
+      "odpowiedzi": [
+        "10",
+        "12",
+        "16",
+        "18"
+      ],
+      "poprawna_odpowiedź": "16",
+      "kategoria": "matematyka"
+    },
+    {
+      "pytanie": "Co to jest iloczyn?",
+      "odpowiedzi": [
+        "Wynik dodawania",
+        "Wynik mnożenia",
+        "Wynik dzielenia",
+        "Wynik odejmowania"
+      ],
+      "poprawna_odpowiedź": "Wynik mnożenia",
+      "kategoria": "matematyka"
+    },
+    {
+      "pytanie": "Jak nazywa się proces zamiany wody w parę wodną?",
+      "odpowiedzi": [
+        "Kondensacja",
+        "Parowanie",
+        "Skraplanie",
+        "Wsiąkanie"
+      ],
+      "poprawna_odpowiedź": "Parowanie",
+      "kategoria": "przyroda"
+    },
+    {
+      "pytanie": "Które z tych zwierząt jest ssakiem?",
+      "odpowiedzi": [
+        "Ptak",
+        "Wąż",
+        "Koń",
+        "Ryba"
+      ],
+      "poprawna_odpowiedź": "Koń",
+      "kategoria": "przyroda"
+    },
+    {
+      "pytanie": "Jaki jest główny składnik powietrza?",
+      "odpowiedzi": [
+        "Tlen",
+        "Wodór",
+        "Azot",
+        "Dwutlenek węgla"
+      ],
+      "poprawna_odpowiedź": "Azot",
+      "kategoria": "przyroda"
+    },
+    {
+      "pytanie": "Jakie drzewo gubi liście na zimę?",
+      "odpowiedzi": [
+        "Sosna",
+        "Dąb",
+        "Świerk",
+        "Modrzew"
+      ],
+      "poprawna_odpowiedź": "Dąb",
+      "kategoria": "przyroda"
+    },
+    {
+      "pytanie": "Co jest głównym źródłem energii dla Ziemi?",
+      "odpowiedzi": [
+        "Księżyc",
+        "Gwiazdy",
+        "Słońce",
+        "Planety"
+      ],
+      "poprawna_odpowiedź": "Słońce",
+      "kategoria": "przyroda"
+    },
+    {
+      "pytanie": "Co oznacza 'green' po polsku?",
+      "odpowiedzi": [
+        "Zielony",
+        "czerwony",
+        "niebieski",
+        "żółty"
+      ],
+      "poprawna_odpowiedź": "Zielony",
+      "kategoria": "język angielski"
+    }
+  ]
+}

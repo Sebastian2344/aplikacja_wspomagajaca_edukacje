@@ -1,0 +1,124 @@
+{
+  "klasa_1_1": [
+    {
+      "pytanie": "Jaką literą zaczyna się słowo 'szkoła'?",
+      "odpowiedzi": ["S", "A", "B", "K"],
+      "poprawna_odpowiedź": "S",
+      "kategoria": "język polski"
+    },
+    {
+      "pytanie": "Które słowo jest przeciwieństwem słowa 'duży'?",
+      "odpowiedzi": ["Mały", "Wielki", "Szybki", "Zły"],
+      "poprawna_odpowiedź": "Mały",
+      "kategoria": "język polski"
+    },
+    {
+      "pytanie": "Jakie słowo zaczyna się na literę 'D'?",
+      "odpowiedzi": ["Dom", "Koń", "Pies", "Kot"],
+      "poprawna_odpowiedź": "Dom",
+      "kategoria": "język polski"
+    },
+    {
+      "pytanie": "Które zdanie jest poprawne?",
+      "odpowiedzi": ["On ma kota.", "On ma koto.", "On ma kotem.", "On ma ktoy."],
+      "poprawna_odpowiedź": "On ma kota.",
+      "kategoria": "język polski"
+    },
+    {
+      "pytanie": " Które litery to samogłoski?",
+      "odpowiedzi": ["A, E, I","C, H, M","K, L, F","Y, R, W"],
+      "poprawna_odpowiedź": "A, E, I",
+      "kategoria": "język polski"
+    },
+    {
+      "pytanie": "Ile to jest 3 + 2?",
+      "odpowiedzi": ["4", "5", "6", "3"],
+      "poprawna_odpowiedź": "5",
+      "kategoria": "matematyka"
+    },
+    {
+      "pytanie": "Ile to jest 6 - 3?",
+      "odpowiedzi": ["3", "4", "5", "2"],
+      "poprawna_odpowiedź": "3",
+      "kategoria": "matematyka"
+    },
+    {
+      "pytanie": "Którym miesiącem roku jest luty?",
+      "odpowiedzi": ["Drugim", "Trzecim", "Czwartym", "Piątym"],
+      "poprawna_odpowiedź": "Drugim",
+      "kategoria": "matematyka"
+    },
+    {
+      "pytanie": "Ile dni ma tydzień?",
+      "odpowiedzi": ["5", "6", "7", "8"],
+      "poprawna_odpowiedź": "7",
+      "kategoria": "matematyka"
+    },
+    {
+      "pytanie": "Ile to jest 4 + 4?",
+      "odpowiedzi": ["6", "8", "9", "10"],
+      "poprawna_odpowiedź": "8",
+      "kategoria": "matematyka"
+    },
+    {
+      "pytanie": "Jakiego koloru jest truskawka?",
+      "odpowiedzi": ["Niebieska", "Czerwona", "Żółta", "Zielona"],
+      "poprawna_odpowiedź": "Czerwona",
+      "kategoria": "przyroda"
+    },
+    {
+      "pytanie": "Jaką porę roku mamy, gdy pada śnieg?",
+      "odpowiedzi": ["Lato", "Jesień", "Zima", "Wiosna"],
+      "poprawna_odpowiedź": "Zima",
+      "kategoria": "przyroda"
+    },
+    {
+      "pytanie": "Które z tych zwierząt ma skrzydła?",
+      "odpowiedzi": ["Koń", "Krowa", "Pies", "Ptak"],
+      "poprawna_odpowiedź": "Ptak",
+      "kategoria": "przyroda"
+    },
+    {
+      "pytanie": "Co jest większe: kot czy mysz?",
+      "odpowiedzi": ["Kot", "Mysz", "Równi", "Nie wiadomo"],
+      "poprawna_odpowiedź": "Kot",
+      "kategoria": "przyroda"
+    },
+    {
+      "pytanie": "Jakie zwierzę robi 'muuu'?",
+      "odpowiedzi": ["Kot", "Pies", "Krowa", "Koń"],
+      "poprawna_odpowiedź": "Krowa",
+      "kategoria": "przyroda"
+    },
+    {
+      "pytanie": "Co oznacza 'dog' po polsku?",
+      "odpowiedzi": ["Pies", "Kot", "Kura", "Koń"],
+      "poprawna_odpowiedź": "Pies",
+      "kategoria": "język angielski"
+    },
+    {
+      "pytanie": "Jak po angielsku powiemy 'kot'?",
+      "odpowiedzi": ["Dog", "Bird", "Cat", "Fish"],
+      "poprawna_odpowiedź": "Cat",
+      "kategoria": "język angielski"
+    },
+    {
+      "pytanie": "Co oznacza 'hello' po polsku?",
+      "odpowiedzi": ["Cześć", "Do widzenia", "Proszę", "Dziękuję"],
+      "poprawna_odpowiedź": "Cześć",
+      "kategoria": "język angielski"
+    },
+    {
+      "pytanie": "Jak po angielsku powiemy 'mama'?",
+      "odpowiedzi": ["Mom", "Dad", "Brother", "Sister"],
+      "poprawna_odpowiedź": "Mom",
+      "kategoria": "język angielski"
+    },
+    {
+      "pytanie": "Jak po angielsku powiemy 'dzień dobry'?",
+      "odpowiedzi": ["Goodbye", "Good morning", "Hello", "Please"],
+      "poprawna_odpowiedź": "Good morning",
+      "kategoria": "język angielski"
+    }
+  ]
+}
