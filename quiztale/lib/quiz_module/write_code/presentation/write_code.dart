@@ -8,12 +8,13 @@ import 'package:quiztale/quiz_module/write_code/data/gamecode_source.dart/gameco
 import '../../write_nick/presentation/write_nick.dart';
 
 class GameCodeScreen extends StatelessWidget {
-  const GameCodeScreen({super.key});
+  const GameCodeScreen({super.key,this.cubit});
+  final GameCodeCubit? cubit;
 
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (context) => GameCodeCubit(
+      create: (context) => cubit ?? GameCodeCubit(
           GameCodeRepo(GameCodeSource(FirebaseFirestore.instance))),
       child: Scaffold(
         appBar: AppBar(

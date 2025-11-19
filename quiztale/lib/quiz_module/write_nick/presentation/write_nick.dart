@@ -6,14 +6,15 @@ import '../../quiz_game/presentation/screens/quiz_screen.dart';
 
 class NicknameScreen extends StatelessWidget {
   const NicknameScreen(
-      {super.key, required this.gameCode, required this.quizId, required this.quizOwnerId});
+      {super.key, required this.gameCode, required this.quizId, required this.quizOwnerId, this.cubit});
   final int gameCode;
   final String quizId;
   final String quizOwnerId;
+  final WriteNickCubit? cubit;
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (context) => WriteNickCubit(),
+      create: (context) => cubit ?? WriteNickCubit(),
       child: Scaffold(
         appBar: AppBar(
           title: const Text('Ustawiane nazwy gracza', style: TextStyle(color: Colors.white)),
