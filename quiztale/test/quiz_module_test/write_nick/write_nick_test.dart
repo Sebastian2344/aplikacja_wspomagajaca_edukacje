@@ -76,7 +76,6 @@ void main() {
 
       expect(find.byType(NicknameScreen), findsOneWidget);
 
-      await tester.pump();
       await tester.pumpAndSettle();
 
       expect(find.byType(NicknameScreen), findsNothing);
