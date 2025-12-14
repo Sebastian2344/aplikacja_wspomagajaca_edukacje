@@ -4,6 +4,7 @@ import 'package:mocktail/mocktail.dart';
 import 'package:quiztale/quiz_module/commons/exceptions/exceptions.dart';
 import 'package:quiztale/quiz_module/write_code/data/gamecode_repo.dart/gamecode_repo.dart';
 import 'package:quiztale/quiz_module/write_code/data/gamecode_source.dart/gamecode_source.dart';
+
 class MockGameCodeSource extends Mock implements GameCodeSource {}
 class MockFirebaseFirestore extends Mock implements FirebaseFirestore {}
 class MockCollectionRef extends Mock implements CollectionReference<Map<String, dynamic>> {}

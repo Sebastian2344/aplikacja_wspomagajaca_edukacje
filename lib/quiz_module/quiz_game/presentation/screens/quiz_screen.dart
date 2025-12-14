@@ -14,24 +14,28 @@ import '../widgets/question_view.dart';
 import '../widgets/result_view.dart';
 
 class QuizScreen extends StatelessWidget {
-  const QuizScreen({super.key, required this.gameCode, required this.quizId, required this.nickname,required this.quizOwnerId});
+  const QuizScreen({super.key, required this.gameCode, required this.quizId, required this.nickname,required this.quizOwnerId, this.timerCubit, this.userAnswerCubit, this.quizCubit});
   final int gameCode;
   final String quizId;
   final String nickname;
   final String quizOwnerId;
+  final TimerCubit? timerCubit;
+  final UserAnswerCubit? userAnswerCubit;
+  final QuizCubit? quizCubit;
+
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
     return MultiBlocProvider(
       providers: [
         BlocProvider(
-          create: (context) => TimerCubit(),
+          create: (context) => timerCubit ?? TimerCubit(),
         ),
         BlocProvider(
-          create: (context) => UserAnswerCubit(),
+          create: (context) => userAnswerCubit ?? UserAnswerCubit(),
         ),
         BlocProvider(
-          create: (context) => QuizCubit(
+          create: (context) => quizCubit ?? QuizCubit(
               QuizRepository(QuizSource(FirebaseFirestore.instance)),
               context.read<TimerCubit>(),
               context.read<UserAnswerCubit>())..turnOnTheQuizMechanism(quizId, gameCode, nickname,quizOwnerId),

@@ -13,13 +13,14 @@ class EditQuizScreen extends StatelessWidget {
   const EditQuizScreen(
       {super.key,
       required this.downloadedQuizModel,
-      required this.downloadedListQuestionModel});
+      required this.downloadedListQuestionModel,this.quizPanelCubit});
   final QuizModel downloadedQuizModel;
   final List<QuestionModel> downloadedListQuestionModel;
+  final QuizPanelCubit? quizPanelCubit;
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (context) => QuizPanelCubit()..loadDataToState(downloadedListQuestionModel, downloadedQuizModel),
+      create: (context) => quizPanelCubit ?? QuizPanelCubit()..loadDataToState(downloadedListQuestionModel, downloadedQuizModel),
       child: Scaffold(
           appBar: AppBar(
               title: const Text('Edycja quizu'),

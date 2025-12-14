@@ -8,13 +8,14 @@ import '../widgets/create_question_widget.dart';
 import '../widgets/show_panel_questions.dart';
 
 class CreateQuizScreen extends StatelessWidget {
-  const CreateQuizScreen({super.key, required this.userId});
+  const CreateQuizScreen({super.key, required this.userId,this.quizPanelCubit});
   final String userId;
+  final QuizPanelCubit? quizPanelCubit;
 
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (context) => QuizPanelCubit(),
+      create: (context) => quizPanelCubit ?? QuizPanelCubit(),
       child: Scaffold(
         appBar: AppBar(
             title: const Text('Tworzenie quizu'),

@@ -11,13 +11,14 @@ import '../../../quiz_panel/presentation/screens/create_quiz_screen.dart';
 import 'quiz_to_choice.dart';
 
 class CreateOrEdit extends StatelessWidget {
-  const CreateOrEdit({super.key});
+  const CreateOrEdit({super.key, this.createOrEditQuizCubit});
+  final CreateOrEditQuizCubit? createOrEditQuizCubit;
 
   @override
   Widget build(BuildContext context) {
     final Size size = MediaQuery.of(context).size;
     return BlocProvider(
-      create: (context) => CreateOrEditQuizCubit(CreateOrEditQuizRepo(
+      create: (context) => createOrEditQuizCubit ?? CreateOrEditQuizCubit(CreateOrEditQuizRepo(
           CreateOrEditQuizData(
               FirebaseFirestore.instance, FirebaseAuth.instance))),
       child: Scaffold(

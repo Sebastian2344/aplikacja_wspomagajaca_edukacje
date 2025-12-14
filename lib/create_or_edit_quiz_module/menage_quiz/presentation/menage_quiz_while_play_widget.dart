@@ -9,11 +9,12 @@ import '../../commons/models/quiz_model.dart';
 
 class MenageQuizWhilePlayWidget extends StatelessWidget {
   const MenageQuizWhilePlayWidget(
-      {super.key, required this.downloadedQuizModel});
+      {super.key, required this.downloadedQuizModel, this.menageQuiz});
   final QuizModel downloadedQuizModel;
+  final MenageQuizWhilePlayCubit? menageQuiz;
 
   Future<MenageQuizWhilePlayCubit> _initializeCubit(int gameCode) async {
-  final cubit = MenageQuizWhilePlayCubit(
+  final cubit = menageQuiz ?? MenageQuizWhilePlayCubit(
     MenageQuizWhilePlayRepo(
       MenageQuizWhilePlayData(FirebaseFirestore.instance),
     ),
@@ -71,40 +72,40 @@ class MenageQuizWhilePlayWidget extends StatelessWidget {
                               .setStart(downloadedQuizModel.gameCode,
                                   downloadedQuizModel.docID);
                         },
-                        icon: const Icon(Icons.play_arrow,size: 75,),
+                        icon: const Icon(Icons.play_arrow,size: 70,),
                         color: state.setStart,
                       ),
-                      Text('Rozpocznij quiz',style: TextStyle(fontSize: width * 0.05)),
+                      Text('Rozpocznij quiz',style: TextStyle(fontSize: width * 0.04)),
                       IconButton(
                         onPressed: () async {
                           await fcontext
                               .read<MenageQuizWhilePlayCubit>()
                               .setPause(downloadedQuizModel.gameCode);
                         },
-                        icon: const Icon(Icons.pause,size: 75),
+                        icon: const Icon(Icons.pause,size: 70),
                         color: state.setPause,
                       ), 
-                      Text('Zapauzuj quiz',style: TextStyle(fontSize: width * 0.05)),
+                      Text('Zapauzuj quiz',style: TextStyle(fontSize: width * 0.04)),
                       IconButton(
                         onPressed: () async {
                           await fcontext
                               .read<MenageQuizWhilePlayCubit>()
                               .setNextQuestion(downloadedQuizModel.gameCode);
                         },
-                        icon: const Icon(Icons.arrow_circle_right,size: 75),
+                        icon: const Icon(Icons.arrow_circle_right,size: 70),
                         color: state.nextQuestion,
                       ),
-                      Text('Następne pytanie',style: TextStyle(fontSize: width * 0.05),),
+                      Text('Następne pytanie',style: TextStyle(fontSize: width * 0.04),),
                       IconButton(
                         onPressed: () async {
                           await fcontext
                               .read<MenageQuizWhilePlayCubit>()
                               .setEnd(downloadedQuizModel.gameCode);
                         },
-                        icon: const Icon(Icons.stop,size: 75),
+                        icon: const Icon(Icons.stop,size: 70),
                         color: state.setEnd,
                       ),
-                      Text('Zakończ quiz',style: TextStyle(fontSize: width * 0.05))
+                      Text('Zakończ quiz',style: TextStyle(fontSize: width * 0.04))
                     ],
                   );
                 } else if (state is MenageQuizError) {
