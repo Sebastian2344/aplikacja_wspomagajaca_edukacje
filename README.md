@@ -13,7 +13,7 @@ Funkcje:
   gra przygodowa posiada: 
     krótką fabułę, 
     postać z przyciskami do sterowania, 
-    platformy, podłorze, tło, animcje, 
+    platformy, podłoże, tło, animcje, 
     pudełka z pytaniami na które trzeba odpowiedzieć,
     punktacje,
     4 poziomy, 
@@ -29,7 +29,7 @@ Biblioteki:
   firebase_core: ^3.1.1
   cloud_firestore: ^5.0.2
   firebase_auth: ^5.3.1 
-Biblioteki wykożystane w testach jednostkowych:
+Biblioteki wykorzystane w testach jednostkowych:
   mocktail:
   flutter_test:
   flutter_bloc_test:
