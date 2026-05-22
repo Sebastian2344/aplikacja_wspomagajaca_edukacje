@@ -3,7 +3,7 @@ import 'package:flame/events.dart';
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
 
-class ControlButton extends PositionComponent with HasGameRef<FlameGame>, TapCallbacks{
+class ControlButton extends PositionComponent with HasGameReference<FlameGame>, TapCallbacks{
   final VoidCallback onPressed;
   final VoidCallback onReleased;
   final Sprite sprite;

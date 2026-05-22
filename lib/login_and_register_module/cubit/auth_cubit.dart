@@ -83,9 +83,9 @@ class AuthCubit extends Cubit<AuthState> {
   }
 
   Future<void> changePassword() async {
-  final _email = email.value; // Pobranie aktualnego emaila
+  final actualEmail = email.value; // Pobranie aktualnego emaila
 
-  if (_email.isEmpty || !email.isValid) {
+  if (actualEmail.isEmpty || !email.isValid) {
     emit(const AuthFailure("Email jest nieprawidłowy"));
     return;
   }
@@ -93,7 +93,7 @@ class AuthCubit extends Cubit<AuthState> {
   emit(const AuthLoading());
 
   try {
-    await _authRepository.changePassword(_email);
+    await _authRepository.changePassword(actualEmail);
     emit(const PasswordChanged());
   } catch (e) {
     emit(AuthFailure("Błąd podczas resetowania hasła: ${e.toString()}"));

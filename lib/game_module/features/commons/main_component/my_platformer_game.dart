@@ -15,7 +15,7 @@ import '../../quiz_menage/cubit/quiz_part_game_cubit.dart';
 import '../../quiz_menage/presentation/components/points.dart';
 
 class PlatformerGame extends FlameGame
-    with HasGameRef<FlameGame>, HasCollisionDetection {
+    with HasGameReference<FlameGame>, HasCollisionDetection {
   PlatformerGame(this._cubit, this.levelsMenagmentCubit);
   final QuizPartGameCubit _cubit;
   final LevelsMenagmentCubit levelsMenagmentCubit;
@@ -102,7 +102,7 @@ class PlatformerGame extends FlameGame
           } else if (state.isLevelCompleted == false &&
               state.isPreparedLevel == false) {
             overlays.add('level${state.currentLevel}Story');
-            _player.position = Vector2(gameRef.size.x * 0.1, gameRef.size.y - 100);
+            _player.position = Vector2(game.size.x * 0.1, game.size.y - 100);
             _baseLevel = BaseLevel(state.currentLevel);
             add(_baseLevel);
             levelsMenagmentCubit.preparedLevel();

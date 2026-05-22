@@ -9,7 +9,7 @@ import 'platform.dart';
 enum Action { leftStand, rightStand, runLeft, runRight }
 
 class Player extends SpriteAnimationComponent
-    with HasGameRef<FlameGame>, CollisionCallbacks {
+    with HasGameReference<FlameGame>, CollisionCallbacks {
   final double moveSpeed;
   final double jumpSpeed;
   final Vector2 playerSize;
@@ -78,7 +78,7 @@ class Player extends SpriteAnimationComponent
     animation = rightAnimationStand;
 
     position =
-        Vector2(gameRef.size.x / 10, gameRef.size.y - gameRef.size.y * 0.2);
+        Vector2(game.size.x / 10, game.size.y - game.size.y * 0.2);
     add(RectangleHitbox());
   }
 
@@ -88,7 +88,7 @@ class Player extends SpriteAnimationComponent
     position += velocity * dt;
 
     velocity.y += 20;
-    if (position.x - size.x > 0 && position.x + size.x < gameRef.size.x) {
+    if (position.x - size.x > 0 && position.x + size.x < game.size.x) {
     } else {
       stopMoving();
     }
@@ -152,8 +152,8 @@ class Player extends SpriteAnimationComponent
       }
     } else if (other is Ground) {
       if (position.y >=
-          gameRef.size.y - other.groundHitboxVector.y - size.y / 2) {
-        position.y = gameRef.size.y - other.groundHitboxVector.y - size.y / 2;
+          game.size.y - other.groundHitboxVector.y - size.y / 2) {
+        position.y = game.size.y - other.groundHitboxVector.y - size.y / 2;
         isJumping = false;
         velocity.y = 0;
       }

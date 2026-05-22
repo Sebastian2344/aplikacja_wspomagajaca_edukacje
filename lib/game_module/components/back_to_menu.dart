@@ -6,7 +6,7 @@ import 'package:flame/events.dart';
 import '../features/commons/main_component/my_platformer_game.dart';
 
 
-class BackToMenu extends SpriteComponent with TapCallbacks,HasGameRef<PlatformerGame>{
+class BackToMenu extends SpriteComponent with TapCallbacks,HasGameReference<PlatformerGame>{
   BackToMenu(this.buttonPosition, this.buttonSprite): super(size: Vector2(40, 40));
   final Vector2 buttonPosition;
   final Sprite buttonSprite;

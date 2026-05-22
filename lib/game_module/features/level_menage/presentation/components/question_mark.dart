@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import '../../../../components/player.dart';
 import '../../../commons/main_component/my_platformer_game.dart';
 
-class QuestionMark extends PositionComponent with HasGameRef<PlatformerGame>,CollisionCallbacks{
+class QuestionMark extends PositionComponent with HasGameReference<PlatformerGame>,CollisionCallbacks{
   QuestionMark({
     required this.questionMarkposition
   });
@@ -33,10 +33,10 @@ class QuestionMark extends PositionComponent with HasGameRef<PlatformerGame>,Col
   void onCollision(Set<Vector2> intersectionPoints, PositionComponent other) {
     super.onCollision(intersectionPoints, other);
     if(other is Player){
-      gameRef.pauseEngine();
-      gameRef.overlays.add('quizQuestion');
+      game.pauseEngine();
+      game.overlays.add('quizQuestion');
       removeFromParent();
-      gameRef.levelsMenagmentCubit.collectQuestionBox();
+      game.levelsMenagmentCubit.collectQuestionBox();
     }
   }
 }
